@@ -1,0 +1,196 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+* {
+    margin: 0;
+}
+.tophead {
+    background-color: rgb(211, 166, 108);
+    display: flex;
+    height: 50px;
+    padding: 10px 0px 10px 0px;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+}
+a button.botoes {
+    display: flex;
+    padding: 10px 30px 10px 30px;
+    font-size: 15px;
+    background-color: rgb(167, 109, 56);
+    border: 0px;
+    border-radius: 15px;
+    margin-left: 50px;
+    text-align: center;
+}
+a .botoes:hover {
+    background-color: rgb(158, 109, 76);
+    cursor: pointer;
+    color: whitesmoke;
+}
+.info {
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 500px 100px 500px;
+}
+.nomedesc {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.imgeu {
+    width: 30%;
+    margin-right: 50px;
+    border: solid 2px rgb(90, 47, 11);
+    border-radius: 15px;
+}
+.h2nomedesc {
+    margin-bottom: 20px;
+    color: rgb(90, 47, 11);
+    font-weight: bold;
+    background-color: rgb(167, 109, 56);
+    border-radius: 15px;
+    padding: 0px 10px 0px 10px;
+}
+.myprojects {
+    background-color:rgb(211, 166, 108);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 500px 10px 500px;
+}
+.h2projects {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgb(90, 47, 11);
+    background-color: rgb(167, 109, 56);
+    border-radius: 15px;
+    padding: 0px 10px 0px 10px;
+}
+.pprojects {
+    margin-bottom: 20px;
+}
+.divimgproj {
+    background-color:rgb(211, 166, 108);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 500px 10px 500px;
+    gap: 50px;
+}
+.imgproj {
+    width: 100%;
+    border: 2px solid rgb(90, 47, 11);
+    border-radius: 15px;
+    
+}
+.spanprojcurriculo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.spanprojtabela {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pfotocurriculo {
+    margin-top: 10px;
+    color: rgb(90, 47, 11);
+    font-weight: bold;
+}
+.pfototabela {
+    margin-top: 10px;
+    color: rgb(90, 47, 11);
+    font-weight: bold;
+}
+.gapbt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.botaoproj {
+    margin-top: 10px;
+    padding: 20px 30px 20px 30px;
+    font-size: 15px;
+    background-color: rgb(167, 109, 56);
+    border: 3px solid rgb(90, 47, 11);
+    border-radius: 15px;
+}
+.botaoproj:hover {
+    background-color: rgb(158, 109, 76);
+    cursor: pointer;
+    color: whitesmoke;
+}
+.contatos {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 500px 10px 500px;
+}
+.h2contatos {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgb(90, 47, 11);
+    background-color: rgb(167, 109, 56);
+    border-radius: 15px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+}
+.ulcontatos {
+    margin-bottom: 20px;
+    align-items: center;
+    font-size: 20px;
+}
+.licontatos {
+    margin-bottom: 10px;
+}
+.liinstagram {
+    margin-bottom: 10px;
+}
+.lilinkedin {
+    margin-bottom: 10px;
+}
+.icon {
+    width: 15px;
+    margin-top: 10px;
+}
+.botaolinkedin {
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    background-color: rgb(32, 25, 139);
+    border: 0px;
+    color: whitesmoke;
+    border-radius: 15px;
+    margin-left: 10px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.botaolinkedin:hover {
+    background-color: rgb(66, 68, 189);
+    cursor: pointer;
+    color: white;
+}
+.spaninstagram {
+    margin-left: 10px;
+}
+.pprojects {
+    font-size: 20px;
+}
+.pnomedesc {
+    font-size: 20px;
+}
